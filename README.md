@@ -2,7 +2,8 @@
 - ttt for play against a friend ,or brainstorm you self,in repository.
 # Chose who to start vs miniMax algorithm AI.
 - minimax algotithm is used in games and teory
-- where you can caculate all possibilities to the end
+- where you can caculate all possibilities to the end.
+- ▶️AI need a few second on first move if you dear to let him start first 👀
 - https://kaliscandinavia.github.io/Tic-Tac-Toe-vs-AI/index.html
 - 
   - Illustration and explonation of use in TTT
