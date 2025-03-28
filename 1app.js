@@ -1,4 +1,4 @@
-  //Debug logging in  and 2app.js.Pretty much same code for 'x' and 'o' game.
+//Pretty much same code for 'x' and 'o' (1app.js & 2app.js)
     // Mouse function(s) to create hover effect for human.
 const mousetable = Array.from(document.getElementsByClassName('box'));
 
@@ -142,7 +142,7 @@ function myfunction(e) {
         // AI makes its move
         table[bestMove].classList.add('boxComputer');
         moves.push(bestMove);
-
+        console.log("AI is making a move at index:", bestMove);
         // Check for a winner after the AI's move
         const winner = checkWinner();
         if (winner) {
@@ -150,7 +150,7 @@ function myfunction(e) {
                 alert(winner + " Restart?");
                 restart();
             }, 100);
-            return; // Exit the function after declaring a winner
+            return; 
         }
 
         // Switch Current Player back to Human
