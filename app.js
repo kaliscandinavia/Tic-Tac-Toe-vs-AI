@@ -1,4 +1,4 @@
-  //Debug logging in  and 2app.js.Pretty much same code for 'x' and 'o'game.
+  //Debug logging same for 1app & 2app.js.Pretty much same code for 'x' and 'o'game.
     // Mouse function(s) to create hover effect for human.
 const mousetable = Array.from(document.getElementsByClassName('box'));
 
